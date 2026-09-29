@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nordwell — Dossier de préparation FR / EN</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF3F5;--ink:#12222C;--mute:#4A6270;--fjord:#1F5A73;--sun:#F0B341;--panel:#DCE7EC;--line:#B9CBD3;--onfjord:#F4F8FA;--en:#E3EEF3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1B22;--ink:#E7EFF2;--mute:#9DB4C0;--fjord:#4F97B5;--panel:#182A34;--line:#2C4351;--onfjord:#0F1B22;--en:#16303C}}
+:root[data-theme="dark"]{--bg:#0F1B22;--ink:#E7EFF2;--mute:#9DB4C0;--fjord:#4F97B5;--panel:#182A34;--line:#2C4351;--onfjord:#0F1B22;--en:#16303C}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.08rem/1.65 "Source Serif 4",Georgia,serif}
+h1,h2,h3,.d{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;line-height:1.1;letter-spacing:-.02em;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 0}
+.top .wrap{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between}
+.top nav{display:flex;flex-wrap:wrap;gap:6px 16px;font:500 .92rem "Bricolage Grotesque",Arial,sans-serif}
+.top a{text-decoration:none}.top a:hover{text-decoration:underline}
+.tg{display:flex;gap:6px}
+.tg button{font:700 .85rem "Bricolage Grotesque",Arial,sans-serif;background:var(--panel);color:var(--ink);border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
+.tg button[aria-pressed="true"]{background:var(--fjord);color:var(--onfjord)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+h1{font-size:clamp(2.2rem,6vw,4rem);font-weight:800;padding-top:36px}
+.intro{color:var(--mute);max-width:60ch}
+.warn{background:var(--panel);border-left:6px solid var(--sun);padding:16px 20px;margin:22px 0}
+section{padding:44px 0 10px;border-top:1px solid var(--line);margin-top:34px}
+h2{font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;margin-bottom:8px}
+h3{font-size:1.15rem;font-weight:700;margin:26px 0 8px}
+.who{display:inline-block;font:700 .78rem "Bricolage Grotesque",Arial,sans-serif;color:#fff;background:var(--fjord);border-radius:999px;padding:4px 12px;margin-right:8px;vertical-align:middle}
+.who.b{background:var(--ink)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:10px 0}
+@media(max-width:760px){.pair{grid-template-columns:1fr}}
+.pair>div{padding:14px 18px;border-radius:4px;background:var(--panel)}
+.pair .en{background:var(--en);border-left:5px solid var(--fjord)}
+.pair .fr{border-left:5px solid var(--sun)}
+.lab{display:block;font:700 .8rem "Bricolage Grotesque",Arial,sans-serif;color:var(--mute);margin-bottom:4px}
+.pair p{margin:0}
+body.only-en .fr{display:none}body.only-fr .en{display:none}
+body.only-en .pair,body.only-fr .pair{grid-template-columns:1fr}
+.time{font:700 .9rem "Bricolage Grotesque",Arial,sans-serif;color:var(--fjord)}
+.half{border:2px solid var(--line);border-radius:8px;padding:18px 20px;margin-top:18px}
+.half>h3:first-child{margin-top:0}
+.halftitle{display:flex;justify-content:space-between;align-items:baseline;font:800 1.3rem "Bricolage Grotesque",Arial,sans-serif;margin-bottom:6px}
+ul{padding-left:1.2em}
+footer{padding:40px 0 60px;color:var(--mute);font-size:.95rem}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<nav aria-label="Sections"><a href="#speech">Le discours</a><a href="#name">Le nom</a><a href="#slogan">Le slogan</a><a href="#qa">Questions</a><a href="#tips">Conseils</a></nav>
+<div class="tg" role="group" aria-label="Langue affichée"><button data-m="both" aria-pressed="true">EN + FR</button><button data-m="only-en" aria-pressed="false">EN seul</button><button data-m="only-fr" aria-pressed="false">FR seul</button></div>
+</div></header>
+
+<div class="wrap">
+<h1>Dossier de préparation : Nordwell, « Strong enough to feel »</h1>
+<p class="intro">Tout ce qu'il faut dire le jour J, en anglais avec la traduction française en face. Durée visée : environ 4 minutes, partagées à égalité entre les deux élèves. Le mode « EN seul » sert à répéter sans regarder la traduction.</p>
+<div class="warn"><strong>Ce que dit la consigne, et ce qui est un choix de l'équipe.</strong> La consigne demande : un slogan, une affiche ou des slides, présenter le storyboard, le message clé, expliquer et justifier, en environ 4 minutes, à deux. Ce dossier présente le storyboard sous forme d'affiche (poster) plutôt que de film, et développe l'audience visée et le visuel de l'affiche pour occuper le temps de parole. Si le professeur attend un storyboard de film avec plusieurs plans, il faut le rajouter. La marque Nordwell, la cible et les engagements (1 % des ventes, congé parental) sont des choix créatifs à présenter comme « our choice » (notre choix). Les chiffres (3 suicides sur 4 concernent des hommes en France, critiques de la pub Gillette 2019) sont à vérifier sur une source fiable avant l'oral.</div>
+
+<section id="speech">
+<h2>1. Le discours, mot pour mot</h2>
+<p class="intro">Deux parties de durée égale, une par élève. Chaque élève apprend sa partie et connaît celle de l'autre pour pouvoir répondre aux questions ensemble.</p>
+
+<div class="half">
+<div class="halftitle"><span><span class="who">Élève A</span>Partie 1</span><span class="time">≈ 2 min</span></div>
+
+<h3>Introduction et problème</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Good morning. We are the creative team working for Nordwell. Today, many boys grow up hearing “man up” and “boys don't cry”. This silence has a cost: about three in four suicides in France are men, and men ask for help far less often than women. Nordwell wants to change this.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Bonjour. Nous sommes l'équipe créative qui travaille pour Nordwell. Aujourd'hui, beaucoup de garçons grandissent en entendant « sois un homme » et « les garçons ne pleurent pas ». Ce silence a un coût : environ trois suicides sur quatre en France sont ceux d'hommes, et les hommes demandent bien moins d'aide que les femmes. Nordwell veut changer cela.</p></div>
+</div>
+
+<h3>Notre cible</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Our campaign speaks to two groups: men aged 16 to 25, who grow up with these phrases right now, and men aged 25 to 35, who start to question them as partners and fathers. It also speaks to everyone around them: parents, partners, friends, coaches.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Notre campagne s'adresse à deux groupes : les hommes de 16 à 25 ans, qui grandissent avec ces phrases en ce moment même, et les hommes de 25 à 35 ans, qui commencent à les remettre en question en tant que compagnons et pères. Elle s'adresse aussi à leur entourage : parents, partenaires, amis, entraîneurs.</p></div>
+</div>
+
+<h3>Notre slogan</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Our campaign is called “Strong enough to feel”. “Strong enough” raises the bar: it takes strength to be vulnerable, to apologise and to listen. “To feel” names the action. The line is short, it has a rhythm, and it works as a hashtag on social media.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Notre campagne s'appelle « Strong enough to feel ». « Strong enough » place la barre plus haut : il faut de la force pour être vulnérable, s'excuser et écouter. « To feel » nomme l'action. La phrase est courte, elle a un rythme, et elle fonctionne comme hashtag sur les réseaux sociaux.</p></div>
+</div>
+</div>
+
+<div class="half">
+<div class="halftitle"><span><span class="who b">Élève B</span>Partie 2</span><span class="time">≈ 2 min</span></div>
+
+<h3>Le message clé et l'affiche</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Our key message is simple: real strength means owning your emotions, respecting others, and asking for help. Our poster shows this in one image: a black-and-white photo of a father's hand on his son's shoulder. The slogan is the only text, at the bottom. Our logo stays small, in a corner: this campaign is about people, not about the brand.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Notre message clé est simple : la vraie force, c'est assumer ses émotions, respecter les autres et demander de l'aide. Notre affiche le montre en une image : une photo en noir et blanc d'une main de père posée sur l'épaule de son fils. Le slogan est le seul texte, en bas. Notre logo reste petit, dans un coin : cette campagne parle des gens, pas de la marque.</p></div>
+</div>
+
+<h3>La campagne</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>We back the words with actions. #StrongEnoughToFeel invites people to share a moment when showing up mattered. One percent of sales funds men's mental-health helplines. And inside Nordwell, fathers get paid parental leave.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Nous appuyons les mots par des actes. #StrongEnoughToFeel invite à partager un moment où être présent a compté. Un pour cent des ventes finance des lignes d'écoute en santé mentale pour les hommes. Et au sein de Nordwell, les pères ont un congé parental payé.</p></div>
+</div>
+
+<h3>Justification</h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>We chose this because our target ignores lectures and reacts to what feels real. We studied Gillette's 2019 ad, “The Best a Man Can Be”: it started a debate, but critics called it preachy. We show positive examples instead, and we accuse nobody. Without real actions, a brand message is just decoration.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Nous avons fait ce choix parce que notre cible ignore les leçons de morale et réagit à ce qui semble sincère. Nous avons étudié la pub Gillette de 2019, « The Best a Man Can Be » : elle a lancé un débat, mais on lui a reproché d'être moralisatrice. Nous montrons plutôt des exemples positifs, sans accuser personne. Sans actes réels, un message de marque n'est qu'un décor.</p></div>
+</div>
+</div>
+
+<h3>Conclusion <span class="time">≈ 20 s, à deux</span></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH · A puis B</span><p><strong>A:</strong> Nordwell does not tell men who to be. <strong>B:</strong> We give them permission to be everything they are. <strong>A + B:</strong> Strong enough to feel. Thank you.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS · A puis B</span><p><strong>A :</strong> Nordwell ne dit pas aux hommes qui être. <strong>B :</strong> Nous leur donnons la permission d'être tout ce qu'ils sont. <strong>A + B :</strong> Assez fort pour ressentir. Merci.</p></div>
+</div>
+</section>
+
+<section id="name">
+<h2>2. Pourquoi le nom « Nordwell » ?</h2>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>“Nord” means north: a compass, a direction, a fixed point to find your way. “Well” stands for well-being and for doing well. Together, the name promises orientation and health. It is short, easy to pronounce in any country, and it sounds like a real grooming brand. The Nordic countries are often cited as a model for gender equality and paternity leave, which fits our message.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>« Nord » évoque une boussole, une direction, un repère pour trouver son chemin. « Well » évoque le bien-être et le fait d'aller bien. Ensemble, le nom promet une orientation et une bonne santé. Il est court, facile à prononcer dans tous les pays, et il sonne comme une vraie marque de soins. Les pays nordiques sont souvent cités en exemple pour l'égalité et le congé paternité, ce qui colle à notre message.</p></div>
+</div>
+</section>
+
+<section id="slogan">
+<h2>3. Pourquoi le slogan « Strong enough to feel » ?</h2>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><ul><li><strong>Strong</strong> keeps a traditional masculine value and widens it.</li><li><strong>Enough</strong> removes the pressure to prove anything.</li><li><strong>To feel</strong> puts emotions inside the definition of strength.</li><li>It is positive: no negation, no accusation, no word like “toxic”.</li><li>Five syllables, easy to remember, ready to become #StrongEnoughToFeel.</li></ul></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><ul><li><strong>Strong</strong> (fort) garde une valeur masculine traditionnelle et l'élargit.</li><li><strong>Enough</strong> (assez) retire la pression de devoir prouver quelque chose.</li><li><strong>To feel</strong> (ressentir) place les émotions dans la définition de la force.</li><li>Il est positif : aucune négation, aucune accusation, aucun mot comme « toxique ».</li><li>Cinq syllabes, facile à retenir, prêt à devenir #StrongEnoughToFeel.</li></ul></div>
+</div>
+</section>
+
+<section id="qa">
+<h2>4. Questions possibles et réponses</h2>
+<p class="intro">Le professeur ou la classe peut poser ces questions. Apprendre l'idée de chaque réponse, pas les phrases par cœur. Les deux élèves doivent pouvoir répondre à n'importe laquelle.</p>
+
+<h3>Is this just marketing? Isn't it hypocritical for a brand to say this?<br><small>C'est du marketing, non ? Une marque n'est-elle pas hypocrite ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>The risk is real, and that is why we attach actions to the words: one percent of sales for helplines, parental leave for fathers, and public results each year. A brand should be judged on what it does. If the actions stop, the campaign should stop.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Le risque existe, et c'est pourquoi nous attachons des actes aux mots : un pour cent des ventes pour les lignes d'écoute, un congé parental pour les pères, des résultats publics chaque année. Une marque se juge sur ce qu'elle fait. Si les actes s'arrêtent, la campagne doit s'arrêter.</p></div>
+</div>
+
+<h3>How is it different from the Gillette ad?<br><small>En quoi est-ce différent de la pub Gillette ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Gillette showed bad behaviour first, and many viewers felt accused. We start from positive examples and a warm, supportive tone. We also add concrete commitments.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Gillette montrait d'abord de mauvais comportements, et beaucoup de spectateurs se sont sentis accusés. Nous partons d'exemples positifs et d'un ton chaleureux et bienveillant. Nous ajoutons aussi des engagements concrets.</p></div>
+</div>
+
+<h3>Do you think masculinity is toxic?<br><small>Pensez-vous que la masculinité soit toxique ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Some norms hurt men and the people around them: never showing pain, refusing help, solving conflicts with violence. Other qualities remain valuable: courage, protection, responsibility. Our campaign keeps the good ones and drops the harmful ones.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Certaines normes font du mal aux hommes et à leur entourage : ne jamais montrer sa douleur, refuser l'aide, régler les conflits par la violence. D'autres qualités gardent leur valeur : le courage, la protection, la responsabilité. Notre campagne garde les bonnes et abandonne celles qui font du mal.</p></div>
+</div>
+
+<h3>Isn't “strong” still a masculine stereotype?<br><small>« Strong » n'est-il pas encore un stéréotype masculin ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Good point. We chose to keep the word and widen its meaning, because many young men identify with strength. Abandoning the word would lose them. The second half of the slogan changes what strength means.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Bonne remarque. Nous avons choisi de garder le mot et d'élargir son sens, car beaucoup de jeunes hommes s'identifient à la force. Abandonner le mot les ferait fuir. La seconde moitié du slogan change le sens de la force.</p></div>
+</div>
+
+<h3>What about women and other people? Is the campaign excluding them?<br><small>Et les femmes ? La campagne les exclut-elle ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>The target is young men, but healthier men also mean better relationships for everyone around them: daughters, partners, friends. The message benefits all of society.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>La cible est constituée de jeunes hommes, mais des hommes en meilleure santé, ce sont aussi de meilleures relations pour leur entourage : filles, partenaires, amis. Le message profite à toute la société.</p></div>
+</div>
+
+<h3>How will you measure success?<br><small>Comment mesurerez-vous le succès ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Four indicators: reach of the hashtag, calls to the partner helplines, a survey of how the target perceives the brand before and after, and the money raised for the charities.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>Quatre indicateurs : la portée du hashtag, les appels aux lignes d'écoute partenaires, un sondage sur la perception de la marque par la cible avant et après, et l'argent collecté pour les associations.</p></div>
+</div>
+
+<h3>Why no famous actor or influencer?<br><small>Pourquoi pas de célébrité ni d'influenceur ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH</span><p>Ordinary men are easier to identify with, and a celebrity can create a scandal that damages the message. Later, real customers can tell their own stories through the hashtag.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS</span><p>On s'identifie plus facilement à des hommes ordinaires, et une célébrité peut provoquer un scandale qui abîme le message. Plus tard, de vrais clients pourront raconter leur histoire avec le hashtag.</p></div>
+</div>
+
+<h3>What is YOUR personal opinion?<br><small>Quel est VOTRE avis personnel ?</small></h3>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH · à personnaliser</span><p>Personally, I think brands can help change mentalities when they back their words with actions. I would say that [your own example: a situation you saw, a film, a friend, sport…] shows why this matters. At the same time, I stay careful: we must check that a brand keeps its promises.</p></div>
+<div class="fr"><span class="lab">FRANÇAIS · à personnaliser</span><p>Personnellement, je pense que les marques peuvent aider à changer les mentalités quand elles appuient leurs mots par des actes. Je dirais que [ton propre exemple : une situation vue, un film, un ami, le sport…] montre pourquoi c'est important. En même temps, je reste prudent : il faut vérifier qu'une marque tient ses promesses.</p></div>
+</div>
+<p class="intro">Cette réponse doit refléter la vraie opinion de votre fils, et si possible celle de son binôme. Chacun peut avoir son propre avis : remplacer le passage entre crochets par son exemple, et changer le fond si besoin.</p>
+</section>
+
+<section id="tips">
+<h2>5. Conseils pour le jour J</h2>
+<div class="pair">
+<div class="en"><span class="lab">ENGLISH · phrases utiles</span><ul><li>“Let me rephrase that.” · “That's a good question.”</li><li>“What we mean is…” · “For example…”</li><li>“I don't have the exact figure, but…”</li><li>“Could you repeat the question, please?”</li></ul></div>
+<div class="fr"><span class="lab">FRANÇAIS · traduction</span><ul><li>« Laissez-moi reformuler. » · « C'est une bonne question. »</li><li>« Ce que nous voulons dire, c'est… » · « Par exemple… »</li><li>« Je n'ai pas le chiffre exact, mais… »</li><li>« Pouvez-vous répéter la question, s'il vous plaît ? »</li></ul></div>
+</div>
+<ul>
+<li>Chaque élève répète sa partie seul, puis les deux répètent ensemble avec un chronomètre. Cible : environ 2 minutes chacun.</li>
+<li>Regarder la classe, pas les slides. Les slides ont peu de texte pour cette raison.</li>
+<li>Ralentir sur le slogan et faire une pause avant « to feel ».</li>
+<li>Vérifier la veille que le fichier des slides s'ouvre sur l'ordinateur de la classe (flèches du clavier pour défiler, touche F pour le plein écran). Prévoir une copie sur clé USB.</li>
+<li>Test de réussite : chacun peut dire sa partie sans notes, et expliquer une décision de l'autre partie si on le lui demande.</li>
+</ul>
+</section>
+
+<footer>Nordwell est une marque fictive créée pour un oral d'anglais. Vérifier les statistiques avant de présenter.</footer>
+</div>
+<script>
+(function(){var b=document.querySelectorAll('.tg button');
+b.forEach(function(x){x.onclick=function(){document.body.className=x.dataset.m==='both'?'':x.dataset.m;b.forEach(function(y){y.setAttribute('aria-pressed',y===x)})}});})();
+</script>
+</body>
+</html>
